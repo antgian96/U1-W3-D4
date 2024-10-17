@@ -1,0 +1,52 @@
+body {text-align: center;
+    margin: 0;
+    background-color: #133422;
+    font-family: 'Outfit', sans-serif;
+    color: #ebebeb;
+}
+
+
+#tombola {
+    background-color: #df2121;
+    color: #ebebeb;
+    border-radius: 8px;
+    border: 8px solid #f6f6fa;
+    padding: 20px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.tombola-cell {
+    display: inline-block;
+    width: 5%;
+    height: 106px;
+    border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 106px; 
+}
+
+
+.tombola-cell:hover {
+    background-color: #188a14;
+}
+
+
+.highlight {
+    background-color: yellow; 
+    font-weight: bold;
+    color: black;
+}
+
+
+button {
+    cursor: pointer;
+    background-color: #a81717;
+    color: #efd7f5;
+    border: none;
+    width: 130px;
+    min-height: 36px;
+    font-weight: 700;
+    border-radius: 5em;
+}
